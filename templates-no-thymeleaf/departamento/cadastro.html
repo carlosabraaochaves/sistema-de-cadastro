@@ -10,6 +10,8 @@
     <meta name="author" content=""/>
     <link rel="icon" href="/image/favicon.png"/>
 
+
+
     <!-- Bootstrap core CSS -->
     <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="/webjars/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet"/>
@@ -27,6 +29,10 @@
 					</button>				
 					<a class="navbar-brand navbar-toggle pull-left" href="#">Curso Spring Boot</a>
 				</div>
+				<div> <a class="btn btn-primary btn-md" href="/departamentos/listar" role="button">
+					<span class="oi oi-spreadsheet" title="Listar" aria-hidden="true"></span>
+					<span>Listar Departamentos</span>
+				</a></div>
 			</div>
 		</nav>
 	</header>
@@ -88,10 +94,7 @@
 	                        <span>Cadastrar Departamentos</span>
 	                    </li>
 	                </ul>
-	                <a class="btn btn-primary btn-md" href="/departamentos/listar" role="button">
-	                    <span class="oi oi-spreadsheet" title="Listar" aria-hidden="true"></span>
-	                    <span>Listar Departamentos</span>
-	                </a>
+
 	            </div>
 	        </nav>
 	
@@ -104,6 +107,8 @@
 	                               placeholder="Nome Departamento" autofocus="autofocus" name="nome" value=""/>
 	                    </div>
 	                </div>
+
+
 	                <input type="hidden" id="id" name="id" value=""/>
 	                <button type="submit" class="btn btn-primary btn-sm">Salvar</button>
 	            </form>
